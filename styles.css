@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #264653; /* Color azulino oscuro */
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 150px; /* Ajustar tamaño del logo según necesidad */
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px; /* Espacio entre los elementos */
+}
+
+header nav ul li:first-child {
+    margin-left: 0; /* Elimina el margen izquierdo del primer elemento */
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos de la sección de banner */
+#banner {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.section-content {
+    display: flex;
+    flex-wrap: wrap; /* Para que los elementos se ajusten en pantallas pequeñas */
+    align-items: center;
+}
+
+.section-content .image {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.section-content .image img {
+    max-width: 100%; /* Imagen responsive */
+}
+
+.section-content .text {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.section-content .text h2 {
+    color: #333;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #264653; /* Color azulino oscuro */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-content .info {
+    padding-left: 20px;
+}
+
+footer .footer-content .info p {
+    margin: 5px 0;
+}
+
+/* Limitar tamaño de imagen del pie de página */
+footer .logo img {
+    max-width: 100px;
+}
